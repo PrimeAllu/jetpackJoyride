@@ -1,0 +1,63 @@
+[gd_scene load_steps=8 format=3 uid="uid://b4ersw7rcn0td"]
+
+[ext_resource type="Script" uid="uid://thpxhbr7qr18" path="res://scripts/Player.cs" id="1_0dbfk"]
+[ext_resource type="Texture2D" uid="uid://be7p3qtmgvmbh" path="res://assets/sprites/magic_shoot.png" id="2_orpjn"]
+[ext_resource type="SpriteFrames" uid="uid://dhngdvrsbt0qr" path="res://assets/sprites/spriteFrames/default.tres" id="3_vdacf"]
+[ext_resource type="AudioStream" uid="uid://8xv62ca60w6o" path="res://assets/sounds/wand_firing.wav" id="4_xiqxf"]
+[ext_resource type="AudioStream" uid="uid://brwg7fx4v8dtq" path="res://assets/sounds/dying.wav" id="5_lenru"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_1a3jn"]
+particle_flag_disable_z = true
+angle_min = 1.07288e-05
+angle_max = 90.0
+direction = Vector3(0, 1, 0)
+spread = 12.0
+initial_velocity_min = 500.0
+initial_velocity_max = 500.0
+gravity = Vector3(0, 0, 0)
+scale_min = 0.15
+scale_max = 0.15
+color = Color(0.941176, 0.941176, 0.941176, 1)
+hue_variation_min = -0.01
+hue_variation_max = 0.00999998
+collision_mode = 2
+collision_use_scale = true
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jghlj"]
+size = Vector2(80, 80)
+
+[node name="Player" type="CharacterBody2D" groups=["Player"]]
+z_index = 5
+script = ExtResource("1_0dbfk")
+
+[node name="Projectiles" type="GPUParticles2D" parent="."]
+z_index = -10
+position = Vector2(0, 35)
+emitting = false
+amount = 30
+texture = ExtResource("2_orpjn")
+lifetime = 5.0
+randomness = 1.0
+fixed_fps = 60
+collision_base_size = 0.3
+trail_enabled = true
+trail_lifetime = 0.1
+process_material = SubResource("ParticleProcessMaterial_1a3jn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_jghlj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, 1)
+scale = Vector2(2.5, 2.5)
+sprite_frames = ExtResource("3_vdacf")
+animation = &"dying"
+autoplay = "walking"
+
+[node name="WandFiringSFX" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_xiqxf")
+bus = &"SFX"
+
+[node name="DyingSFX" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_lenru")
+bus = &"SFX"
