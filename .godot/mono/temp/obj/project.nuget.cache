@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8YAFbAJkgW4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\13YA0702\\OneDrive - Åmåls kommun\\Dokument\\jetpackJoyride\\jetpackJoyride_game02.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\13YA0702\\.nuget\\packages\\godot.sourcegenerators\\4.4.1\\godot.sourcegenerators.4.4.1.nupkg.sha512",
+    "C:\\Users\\13YA0702\\.nuget\\packages\\godotsharp\\4.4.1\\godotsharp.4.4.1.nupkg.sha512",
+    "C:\\Users\\13YA0702\\.nuget\\packages\\godotsharpeditor\\4.4.1\\godotsharpeditor.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
