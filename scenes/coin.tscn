@@ -57,6 +57,5 @@ frame_progress = 0.235056
 
 [node name="PickupSFX" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_v4sjd")
-bus = &"SFX"
 
 [connection signal="body_entered" from="." to="." method="_OnBodyEntered"]

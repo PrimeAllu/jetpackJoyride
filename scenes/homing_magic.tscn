@@ -83,7 +83,6 @@ texture = SubResource("AtlasTexture_80di3")
 
 [node name="WarningSFX" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_4pm4q")
-bus = &"SFX"
 
 [node name="HomingMagicSFX" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("4_64ii5")

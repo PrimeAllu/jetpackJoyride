@@ -56,8 +56,6 @@ autoplay = "walking"
 
 [node name="WandFiringSFX" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("4_xiqxf")
-bus = &"SFX"
 
 [node name="DyingSFX" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("5_lenru")
-bus = &"SFX"

@@ -9,10 +9,10 @@ C:\Users\13YA0702\OneDrive - Åmåls kommun\Dokument\jetpackJoyride\.godot\mono\
 C:\Users\13YA0702\OneDrive - Åmåls kommun\Dokument\jetpackJoyride\.godot\mono\temp\obj\Debug\jetpackJoyride_game02.AssemblyInfoInputs.cache
 C:\Users\13YA0702\OneDrive - Åmåls kommun\Dokument\jetpackJoyride\.godot\mono\temp\obj\Debug\jetpackJoyride_game02.AssemblyInfo.cs
 C:\Users\13YA0702\OneDrive - Åmåls kommun\Dokument\jetpackJoyride\.godot\mono\temp\obj\Debug\jetpackJoyride_game02.csproj.CoreCompileInputs.cache
+C:\Users\13YA0702\OneDrive - Åmåls kommun\Dokument\jetpackJoyride\.godot\mono\temp\obj\Debug\jetpackJoyride_game02.sourcelink.json
 C:\Users\13YA0702\OneDrive - Åmåls kommun\Dokument\jetpackJoyride\.godot\mono\temp\obj\Debug\jetpackJ.03349E7C.Up2Date
 C:\Users\13YA0702\OneDrive - Åmåls kommun\Dokument\jetpackJoyride\.godot\mono\temp\obj\Debug\jetpackJoyride_game02.dll
 C:\Users\13YA0702\OneDrive - Åmåls kommun\Dokument\jetpackJoyride\.godot\mono\temp\obj\Debug\refint\jetpackJoyride_game02.dll
 C:\Users\13YA0702\OneDrive - Åmåls kommun\Dokument\jetpackJoyride\.godot\mono\temp\obj\Debug\jetpackJoyride_game02.pdb
 C:\Users\13YA0702\OneDrive - Åmåls kommun\Dokument\jetpackJoyride\.godot\mono\temp\obj\Debug\jetpackJoyride_game02.genruntimeconfig.cache
 C:\Users\13YA0702\OneDrive - Åmåls kommun\Dokument\jetpackJoyride\.godot\mono\temp\obj\Debug\ref\jetpackJoyride_game02.dll
-C:\Users\13YA0702\OneDrive - Åmåls kommun\Dokument\jetpackJoyride\.godot\mono\temp\obj\Debug\jetpackJoyride_game02.sourcelink.json

@@ -1,7 +1,6 @@
-[gd_scene load_steps=18 format=3 uid="uid://cr6ptxtv46k7l"]
+[gd_scene load_steps=17 format=3 uid="uid://cr6ptxtv46k7l"]
 
 [ext_resource type="Script" uid="uid://cnfb5q3roi0n1" path="res://scripts/Unlocks.cs" id="1_ujdo7"]
-[ext_resource type="Shader" uid="uid://q5qcbgs5qmh1" path="res://shader/scrollbg.gdshader" id="2_84unu"]
 [ext_resource type="FontFile" uid="uid://c84kffrxpy8be" path="res://assets/fonts/VCR_OSD_MONO_1.001.ttf" id="2_vo6y8"]
 [ext_resource type="Texture2D" uid="uid://gc47523b1oi2" path="res://assets/sprites/background_forest.png" id="3_bm8da"]
 [ext_resource type="Texture2D" uid="uid://b26po5uks2lo4" path="res://assets/sprites/jetpack_mage.png" id="3_j0fwe"]
@@ -11,8 +10,6 @@
 [ext_resource type="Texture2D" uid="uid://bt8afneh8qthy" path="res://assets/sprites/jetpack_mage_skin4.png" id="7_rbyjh"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_p1jyk"]
-shader = ExtResource("2_84unu")
-shader_parameter/speed = 0.05
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fob8l"]
 atlas = ExtResource("5_gjapp")

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("jetpackJoyride_game02")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1409022ce5e4742a250c9f66395a93192f9d596d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44c3ddbde5f98863429a4dc1501d7cce6dcc2ab5")]
 [assembly: System.Reflection.AssemblyProductAttribute("jetpackJoyride_game02")]
 [assembly: System.Reflection.AssemblyTitleAttribute("jetpackJoyride_game02")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
